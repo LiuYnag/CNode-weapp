@@ -1,0 +1,34 @@
+.info-container{
+    border-bottom: 1px solid #eee;
+    padding:.4rem .2rem;
+    .info-content{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:.3rem;
+        .info-title{
+            font-size:.8rem;
+            color:#666;
+            text-align: left;
+        }
+        .info-avatar{
+            text-align: right;
+        }
+    }
+    .info-message{
+        display: flex;
+        justify-content: space-between;
+        .info-label{
+            font-size: .6rem;
+            color: #aaa;
+            .label-text{
+                margin-right: .6rem;
+                margin-left: .2rem;
+            }
+        }
+        .info-username{
+            text-align: right;
+            font-size: .7rem;
+            color: #999;
+        }
+    }
+}

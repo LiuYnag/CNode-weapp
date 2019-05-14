@@ -1,0 +1,95 @@
+.list-content{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.item-container{
+    border-bottom: 1px solid #eee;
+    padding:.4rem .2rem;
+    .item-content{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:.3rem;
+        .item-title{
+            font-size:.8rem;
+            color:#666;
+            text-align: left;
+        }
+        .item-avatar{
+            text-align: right;
+            image{
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+    .item-message{
+        display: flex;
+        justify-content: space-between;
+        .item-label{
+            font-size: .6rem;
+            color: #aaa;
+            .label-text{
+                margin-right: .6rem;
+                margin-left: .2rem;
+            }
+        }
+        .item-username{
+            text-align: right;
+            font-size: .7rem;
+            color: #999;
+        }
+    }
+}
+.fab{
+    position: fixed;
+    left: .3rem;
+    bottom: 1rem;
+    .fab-content{
+        width: 1rem;
+        height: 1rem;
+    }
+}
+.menu{
+    height: 100%;
+    background-color: #444;
+    .userInfo{
+        padding: 1rem .5rem .3rem .5rem;
+        .username{
+            display: flex;
+            justify-content: space-between;
+            color: #aaa;
+            font-size: .8rem;
+            padding-top: .5rem;
+        }
+    }
+    .menu-list{
+        margin-top: .5rem;
+        border-top: 1px solid #777;
+        .menu-list-item{
+            display: flex;
+            justify-content: space-between;
+            color: #aaa;
+            font-size: 1rem;
+            padding: .8rem;
+            .item-text{
+                margin-left: .8rem;
+            }
+            .active{
+                color: #80bd01;
+                background-color: #666;
+            }
+        }
+    }
+    .signin{
+        width: 80%;
+        margin: auto;
+        padding-top: 2rem;
+        .logo{
+            text-align: center;
+            image{
+                width: 6rem;
+                height: 6rem;
+            }
+        }
+    }
+}

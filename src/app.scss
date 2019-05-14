@@ -1,0 +1,25 @@
+.tab-bar{
+    box-sizing:border-box;
+    display: flex;
+    position:fixed;
+    padding: .2rem 0;
+    width:100%;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:800;
+    background-color:#fff;
+    border-top:1px solid #aaa;
+    .tab-item{
+        flex: 1;
+        text-align: center;
+        color: #aaa;
+        .tab-item-text{
+            display: block;
+            font-size: .6rem;
+        }
+    }
+    .active{
+        color: #80bd01;
+    }
+}

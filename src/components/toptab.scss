@@ -1,0 +1,25 @@
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0 .7rem;
+  box-sizing: border-box;
+  .item{
+    flex:1;
+    text-align:center;
+  }
+  .active{
+      font-size: .8rem;
+      color:#000;
+      padding-bottom:.25rem;
+      border-bottom:1px solid;
+  }
+  .not-active{
+      font-size: .7rem;
+      padding-bottom:.25rem;
+      color:#aaa;
+  }
+
+}

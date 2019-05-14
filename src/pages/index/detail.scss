@@ -1,0 +1,84 @@
+.artical{
+    .head{
+        padding:0 .6rem;
+        border-bottom: 1px solid #aaa;
+        .title{
+            font-size: .8rem;
+            color: #666;
+        }
+        .head-info{
+            padding: .2rem 0;
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+            .username{
+                display: flex;
+                align-items:center;
+                font-size: .6rem;
+                color: #aaa;
+                .text{
+                    line-height:1rem;
+                    margin-left:1rem;
+                }
+            }
+            .collect{
+                float: right;
+            }
+        }
+    }
+    .text{
+        font-size: .8rem;
+        color: #666;
+        padding: .5rem .5rem 4rem .5rem;
+    }
+}
+.comment{
+    padding-bottom: 4rem;
+    .comment-item{
+        border-bottom: 1px solid #eee;
+        display: flex;
+        align-items: flex-start;
+        padding: .4rem;
+        .item-content{
+            margin-left: .6rem;
+            .username{
+                font-size: .8rem;
+                font-weight: bold;
+                color: #000;
+            }
+            .time{
+                font-size: .6rem;
+                color: #aaa;
+            }
+            .text{
+                font-size: .8rem;
+                color: #999;
+            }
+        }
+    }
+}
+.tab-bar{
+    box-sizing:border-box;
+    display: flex;
+    position:fixed;
+    padding: .2rem 0;
+    width:100%;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:800;
+    background-color:#fff;
+    border-top:1px solid #aaa;
+    .tab-item{
+        flex: 1;
+        text-align: center;
+        color: #aaa;
+        .tab-item-text{
+            display: block;
+            font-size: .6rem;
+        }
+    }
+    .active{
+        color: #80bd01;
+    }
+}

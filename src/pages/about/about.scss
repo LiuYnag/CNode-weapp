@@ -1,0 +1,27 @@
+page{
+    height: 100%;
+}
+.content{
+    background-color: #444;
+    height: 100%;
+    padding-top: 2rem;
+    .logo{
+       margin-bottom:1rem;
+       text-align: center;
+       image{
+        height:8rem;
+        width:8rem;
+       }
+    }
+    .text{
+        width: 80%;
+        margin: auto;
+        margin-top: 3rem;
+        text{
+            display: block;
+            margin-bottom:0.5rem;
+            color:#fff;
+            font-size:.7rem;
+        }
+    }
+}

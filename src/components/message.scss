@@ -1,0 +1,13 @@
+.message-item{
+    border-bottom: 1px solid #eee;
+    padding:.6rem;
+    font-size: .8rem;
+    color: #666;
+    .message-link{
+        color: deepskyblue;
+    }
+    .message-text{
+        margin-left: .2rem;
+        margin-right: .2rem;
+    }
+}
