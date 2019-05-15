@@ -43,8 +43,8 @@ export default class Index extends Component {
             </AtButton>
           </View>
           <View className='login-text'>
-            <Text>1、目前小程序端暂不支持账号密码方式，敬请谅解！</Text>
-            <Text>2、请在PC端打开网页访问https://cnodejs.org/ Cnode社区登录后进入设置页面，扫描页面上二维码登录。</Text>
+            <View className='text'>1、目前小程序端暂不支持账号密码方式，敬请谅解！</View>
+            <View className='text'>2、请在PC端打开网页访问https://cnodejs.org/ Cnode社区登录后进入设置页面，扫描页面上二维码登录。</View>
           </View>
       </View>
     )
