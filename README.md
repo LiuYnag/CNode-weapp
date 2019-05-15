@@ -22,6 +22,6 @@
 ![首页](https://raw.githubusercontent.com/LiuYnag/CNode-weapp/master/src/assets/image/screen03.jpg)      ![详情](https://raw.githubusercontent.com/LiuYnag/CNode-weapp/master/src/assets/image/screen02.jpg)
 ![个人中心](https://raw.githubusercontent.com/LiuYnag/CNode-weapp/master/src/assets/image/screen01.jpg)
 
-###如若对此程序满意求个Star，有任何问题欢迎issue。
+### 如若对此程序满意求个Star，有任何问题欢迎issue。
 
 
